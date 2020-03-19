@@ -3,7 +3,7 @@ package com.syntaxclass13;
 public class Q1 {
 
 	public static void main(String[] args) {
-		/*
+		/* Swap  
 		 * 
 		 * 
 		 */
@@ -28,6 +28,20 @@ public class Q1 {
 		
 		System.out.println("The value of str1 = "+ str1);
 		System.out.println("The value of str2 = "+ str2);
+		
+		
+		//another way
+		String s1= "Hello";
+		String s2 ="Bye";
+		
+		String shortest1= s1+s2;
+		s2 =shortest1.replace(s2, "");
+		s1 =shortest1.replace(s2,"");
+		
+		System.out.println("The value of s1 = "+s1);
+		System.out.println("The value of s2 = "+s2);
+		
+		
 		
 	}
 
