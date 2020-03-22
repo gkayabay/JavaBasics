@@ -11,7 +11,7 @@ public class Garage {
 	car1.color= "Blue";
 	
 	Car car2 =new Car();
-	car2.make ="BMW";
+	car2.make ="BMW";      //order is not important
 	car2.model ="m5";
 	car2.year= 2019;
 	car2.color= "Pink";
@@ -21,7 +21,7 @@ public class Garage {
 	car3.speed=200;
 	
 	//print BMW
-	System.out.println(car1.make);
+	System.out.println(car2.make);
 	
 	//accessing behavior/methods of Car
 	car1.drive();
@@ -41,6 +41,12 @@ public class Garage {
 	
 	//I drive pink BMW
 	System.out.println("I drive "+car2.color+ " "+car2.make);
+	
+	
+	Car2 anotherCar =new Car2();
+	anotherCar.make ="Toyota";
+	anotherCar.speed=90;
+	anotherCar.drive();
 	
 	//create bile object
 	//new Bike();------>cannot create an object if we do not have a class
