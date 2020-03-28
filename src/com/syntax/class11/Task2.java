@@ -34,7 +34,7 @@ public class Task2 {
 				}
 
 			} else {
-				message = "Password is too short";
+				String message = "Password is too short";
 			}
 			System.out.println("Username and password cannot be empty");
 

@@ -27,6 +27,4 @@ public class Car {
 		System.out.println(make +" car stops");
 		
 	}
-	
-
 }

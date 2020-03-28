@@ -4,8 +4,8 @@ public class StaticKeyword {
 	
 	//create a template for a phone 
 	
-	String color;
-	int memory;
+	String color;  //instance variable
+	int memory;    //instance variable
 	
 	static String brand;
 	static boolean touchScreen;
@@ -15,9 +15,15 @@ public class StaticKeyword {
 	static void displayGeneralInfo() {//instance method because it does not have any static keyword
 		System.out.println("We are building "+brand+" with touch screen="+touchScreen);
 	}
+	
+	//instance member of the class can access ALL STATIC members
 	void displaySpecifications() {
 		System.out.println("We build phone with "+memory+" GB memory in "+color+" color");
 	}
+	//STATIC METHODS CANNOT ACCESS NON-STATIC MEMBERS OF THE CLASS
+	//static void displaySpecifications1() {
+	//	System.out.println("We build phone with "+memory+" GB memory in "+color+" color");
+	// }
 	
     public static void main(String[] args) {
     	//accessing static variable in a static way
