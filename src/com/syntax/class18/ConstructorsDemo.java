@@ -34,7 +34,7 @@ public class ConstructorsDemo {
 		ConstructorsDemo obj = new ConstructorsDemo();//calling constructor method with no parameter or non argument
 		System.out.println(str); //static variable can be access by its name
 		
-		ConstructorsDemo obj1 = new ConstructorsDemo("Today is Java Class");//create object and calling ConstructorsDemo() method with a string
+		ConstructorsDemo obj1 = new ConstructorsDemo(" Today is Java Class");//create object and calling ConstructorsDemo() method with a string
 	    obj1.ConstructorsDemo();//void ConstructorsDemo method because void is the return type
 		
 	}

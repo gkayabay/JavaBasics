@@ -25,7 +25,7 @@ public class Dog {
 	dog1.name= "Lucy";
 	dog1.size= "Big";
 	dog1.age=5;
-	dog1.age=6;
+	
 	dog1.displayDog();
 	
 	//how to access static variables--->static variables belong to the class -->accessed by className
@@ -61,8 +61,8 @@ public class Dog {
 	
 	
 	
-		
 	}
+	
 	
 
 }

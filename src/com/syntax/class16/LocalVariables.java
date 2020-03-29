@@ -27,4 +27,5 @@ public class LocalVariables {
 		System.out.println(i);
 	
 	}
+	}
 }

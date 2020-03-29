@@ -24,12 +24,12 @@ public class Car {
 		
 		System.out.println("--------------------------------------------");
 		
-		Car car1 =new Car();//construcctor calls and initialize the object even if we dont inititilazi
-		//we are using instance varaible without assigning any value
+		Car car1 =new Car();//constructor calls and initialize the object even if we dont inititilazi
+		//we are using instance variable without assigning any value
 		
 		//constructor initializes all instance variable and assign default values to them
 		
-		car1.printDetails(); //execute instance method (pintDetails method)
+		car1.printDetails(); //execute instance method (printDetails method)
 	    System.out.println(car1.year);
 		
 		

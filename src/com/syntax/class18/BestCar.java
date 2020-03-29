@@ -2,7 +2,7 @@ package com.syntax.class18;
 
 public class BestCar {
 	
-	String make, model, color; 
+	static String make, model, color; 
 	int year, door, wheels;
 	
 	public void printDetails() {
@@ -27,6 +27,10 @@ public class BestCar {
 		
 		BestCar car = new BestCar("BWW", "m5", "Grey",2020, 4,5);
 		
-		car.printDetails();
+		car.printDetails();//instance method because i am accesing or gives me the instance 
+		
+		//new BestCar("Toyota", "Camry", 2020, 2, 4, "Blue")//order has to match 
+		
+		
 	}
 }
