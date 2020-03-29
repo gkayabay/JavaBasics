@@ -18,7 +18,8 @@ public class USA {
 		
 		//can I call a method inside another method?-->YES
 		public void displayInfo() {  //calling method inside another method
-			displayState();
+			//this.displayState(); bu method invisible by constructor. Acikca yazmama gerek yok
+			displayState(); //by default compiler add this to a keyword
 			displayStateCapital();
 			
 		}
@@ -27,6 +28,9 @@ public class USA {
 		public static void main(String[] args) {
 			
 	    USA state1 = new USA("Texas","Austin");
+	    
+	    state1= new USA("Georgia","Atlanta");//reassign oldu
+	    state1.displayInfo();
 	    
 	    System.out.println(state1.state);
 	     
