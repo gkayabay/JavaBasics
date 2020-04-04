@@ -53,11 +53,7 @@ public class StringDEmo {
 		
 		str4= str4.trim();
 		System.out.println("String with no leading or trailing spaces:"+str4);
-		
-		
-		
-		
-
+	
 		
 	}
 

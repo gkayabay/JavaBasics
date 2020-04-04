@@ -19,3 +19,4 @@ public class MathOperations {
 	//can be accessed within this same class
 	private void smth() {
 }
+}

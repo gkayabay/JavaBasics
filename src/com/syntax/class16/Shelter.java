@@ -13,9 +13,6 @@ public class Shelter {
 		System.out.println(Dog.breed);//because breed is static variable
 		
 		
-		
-		
-
 	}
 
 }

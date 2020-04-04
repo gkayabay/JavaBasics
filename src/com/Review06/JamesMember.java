@@ -9,7 +9,7 @@ public class JamesMember {
 		System.out.println("Full name is "+firstName+ " "+lastName);
 	}
 	
-	
+	 
 	
 
 }

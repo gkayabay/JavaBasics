@@ -26,7 +26,7 @@ public class MoreStringFunctions {
 		String str3="Hello all students";
 		str3=str3.replace(" ", "");
 		System.out.println(str3);
-		
+		 
 		
 		System.out.println("---------replaceAll Function------------");
 		

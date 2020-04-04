@@ -29,7 +29,7 @@ public class Phone {
 	phone3.model="N7";
 	phone3.color= "Purple";
 	phone3.price= 1500; 
-	
+	 
 	}
 	void talk() {
 		System.out.println(name+ " can talk with");

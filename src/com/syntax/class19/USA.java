@@ -30,6 +30,7 @@ public class USA {
 	    USA state1 = new USA("Texas","Austin");
 	    
 	    state1= new USA("Georgia","Atlanta");//reassign oldu
+	   
 	    state1.displayInfo();
 	    
 	    System.out.println(state1.state);
@@ -37,7 +38,7 @@ public class USA {
 	   // USA();we can not call the constructor method like this
 	    state1.displayState();
 	    state1.displayStateCapital();
-	
+	  
 		}
 
 }

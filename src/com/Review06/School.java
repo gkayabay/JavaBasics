@@ -17,9 +17,6 @@ public class School {
 		
 		//math.smth(); cannot accessed this method because it is private
 		
-		
-		
-
 	}
 
 }

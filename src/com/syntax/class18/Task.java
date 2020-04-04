@@ -24,9 +24,6 @@ public class Task {
 		
 		
 	Task watch = new Task("Apple", "Green", 750);
-	
-	Task watch1 = new Task();
-	
 	watch.printDetail();
 
 	

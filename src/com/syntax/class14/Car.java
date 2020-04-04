@@ -8,7 +8,7 @@ public class Car {
 	String color;
 	int year;
 	int speed;
-     
+      
 	
 	//define behavior
 	void drive() {

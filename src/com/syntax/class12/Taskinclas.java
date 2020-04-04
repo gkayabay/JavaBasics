@@ -7,7 +7,7 @@ public class Taskinclas {
 		//Task1
 		String str= "Colors of the world";
 		str= str.replace(" ",""); 
-		
+		 
 		//Task2
 		String str1= "Everthing will be awesome!123^&";
 		str1=str1.replaceAll("[^A-Za-z]", "");
@@ -20,7 +20,7 @@ public class Taskinclas {
 		System.out.println(sentence.length);
 		
 		
-		
+		  
 		
 
 	}

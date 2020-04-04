@@ -5,7 +5,7 @@ import com.syntax.class17.Employee;
 public class AccessingMembersOfDifferentClass {
 
 	public static void main(String[] args) {
-
+ 
 		Employee emp = new Employee();
 		//Employee.title = "QA Engineer";
 		emp.name = "Ahmet";
@@ -21,7 +21,7 @@ public class AccessingMembersOfDifferentClass {
 		//  emp.method3();--->default
 		//  emp.method4();--->private
 		
-         
+          
 	}
 
 }

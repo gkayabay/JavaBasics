@@ -28,7 +28,7 @@ public class ThisKeyword {
 		ThisKeyword obj =new ThisKeyword(10,20);//refers to instance variable
 		obj.sum(100, 200);//refers to local variables 
 		
-		ThisKeyword obj2 = new ThisKeyword();
+		ThisKeyword obj2 = new ThisKeyword(); 
 		obj2.sum(20,40);//60 ->accessing current local variable. a=0; b=0-->because this.a and this.b instance variables are 0
 	}
 }

@@ -1,6 +1,6 @@
 package com.syntax.class15;
 
-public class Methods {
+public class Methods { 
 
 	//create a method that will say welcome 10 times
 	

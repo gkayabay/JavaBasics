@@ -59,10 +59,10 @@ public class ArrayManipulations {
 		
 		int min = manip.smallestNumber(arr);
 		System.out.println("smallest is "+manip.smallestNumber(arr));
-	}
+	
 	//Hw 
 	//create a method that returns the sum of array
 	   int sum= sumArray(arr);
 	   System.out.println(sum);
-}
+	}
 }

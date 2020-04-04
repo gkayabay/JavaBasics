@@ -8,8 +8,7 @@ public class Recap {
 	Recap (int num) {
 		System.out.println("constructor with 1 parameter");
 	}
-	
-	
+	 
 	public static void main(String[] args) {
 		
 		Recap obj = new Recap(2);

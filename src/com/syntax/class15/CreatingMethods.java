@@ -1,5 +1,5 @@
 package com.syntax.class15;
-
+ 
 public class CreatingMethods {
 
 	// we want to create a method that will accept marks(90, 80)

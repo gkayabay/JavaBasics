@@ -20,7 +20,7 @@ public class Dogg {
 		dog2.breed="Bulldog";
 		dog2.name="Bill";
 		dog2.age= 5;
-		
+		 
 		dog2.bark();
 		dog2.feel();
 		dog2.run();

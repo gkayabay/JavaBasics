@@ -14,6 +14,6 @@ public class ConstructorTest {
 		Constructor obj3 =new Constructor("Hi");
 	    */
 	
-	
+	}	
 	
 }

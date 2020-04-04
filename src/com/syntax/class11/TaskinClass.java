@@ -42,11 +42,11 @@ public class TaskinClass {
          
          
          //Using Regular For LOOp
-         int total=0;
+         int total1=0;
          for(int i=0; i<countries.length; i++) {
         	 for(int j=0; j<countries[i].length; j++) {
         		 System.out.println(countries[i][j]+" ");
-        		 total++; //yukarda initializze yap total i burda da loop cuntry her dondugunde count yap
+        		 total1++; //yukarda initializze yap total i burda da loop cuntry her dondugunde count yap
         	 }
         	 System.out.println();
          }

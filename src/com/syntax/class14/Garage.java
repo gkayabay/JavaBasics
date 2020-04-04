@@ -22,7 +22,7 @@ public class Garage {
 	
 	//print BMW
 	System.out.println(car2.make);
-	
+	  
 	//accessing behavior/methods of Car
 	car1.drive();
 	car1.accelerate();

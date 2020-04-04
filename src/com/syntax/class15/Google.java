@@ -25,7 +25,7 @@ public class Google {
 		emp1.lastName="Smith";
 		emp1.title="CEO";
 		emp1.salary=200000;
-		
+		 
 		emp1.working();
 		emp1.getPaid();
 		emp1.attendMeetings();

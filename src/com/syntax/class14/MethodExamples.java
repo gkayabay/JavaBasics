@@ -1,5 +1,5 @@
 package com.syntax.class14;
-
+  
 public class MethodExamples {
 	//create a method that will be greeting a person
 	
