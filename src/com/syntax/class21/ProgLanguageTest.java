@@ -7,8 +7,9 @@ public class ProgLanguageTest {
 
 	public static void main(String[] args) {
 		
-		Java java = new Java("Java", "instace local static", "Parameterized and non argument");)
+		//Java java = new Java("Java", "instace local static", "Parameterized and non argument");
        //3 strings has to match with the constructor
-		java.details();
+		//java.details();
 	}
 }
+ 

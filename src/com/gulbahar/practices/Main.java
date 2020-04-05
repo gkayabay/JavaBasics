@@ -22,7 +22,7 @@ public class Main {
 			    
 			    System.out.println(name + " " + lastName + " " + age + " " + grade);
 			  }
-			 
+			   
 			}
 		
 		class Employee extends Person{
@@ -75,35 +75,6 @@ public class Main {
 		}
 
 		
-		
-		
-		
-		
-		
-		
-		
-				
-
-		  
-		  
-		  
-		  
-		  
-		  
-		  
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 	
 	
 	

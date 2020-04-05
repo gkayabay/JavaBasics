@@ -13,7 +13,8 @@ public class Recap {
 	}
 		public void hello1(int num) {//CE This method is overloaded
 			System.out.println("Hello"+num);
-		
+		}
+}
 
 	//CE: overloading is not possible by changing access modifier
 	//private void hello (String str)
@@ -22,7 +23,7 @@ public class Recap {
 		
 	
 	//CE: overloading is not possible by cahnging return type public String hello(String name){
-		return name;
+		
 	
 	
-}
+
