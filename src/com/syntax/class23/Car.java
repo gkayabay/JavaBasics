@@ -25,6 +25,11 @@ class BMW extends Car {
 	public void start() { //overriding method happened in 3 different classes
 		System.out.println(make+" starts by pushing button");
 	}
+	 public void navigatte() {
+		 System.out.println(make+ " has navigation system");
+	 }
+	
+	
 }
 
 
@@ -37,6 +42,10 @@ class Mercedes extends Car {
 	public void start() {
 		System.out.println(make+" starts by remotely");
 	}
+	 public void prettyLight() {
+		 System.out.println(make+ " has pretty interior lights");
+	 }
+	
 }
 
 
