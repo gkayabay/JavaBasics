@@ -4,7 +4,7 @@ public class CarTest {
 	
 	public static void main(String[] args) {
 		
-	Car bmw=new BMW ("BMW");//upcasting creating object. I want to be type of parent class Car
+	Car bmw=new BMW ("BMW");//upcasting happens and creating object. I want to be type of parent class Car
 	bmw.display();//from Car parent class
 	bmw.start(); //from sublclass form BMW class
 	//bmw.navigatte();CE; Undefined method because Car class inda bu method yok

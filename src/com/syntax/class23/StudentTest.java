@@ -7,7 +7,7 @@ public class StudentTest {
 		student.study();
 		student.doHomework();
 		
-		System.out.println("-------Student object and Rerefence SyntaxStudent Type---");
+		System.out.println("-------SyntaxStudent object and Rerefence SyntaxStudent Type---");
 		SyntaxStudent syntax = new SyntaxStudent();
 		syntax.doHomework();//from parent class
 		syntax.study();
@@ -17,7 +17,7 @@ public class StudentTest {
 		
 		System.out.println("-------SyntaxStudent object and Student Reference Type---");
 		Student st = new SyntaxStudent();//upcasting (assignin child object)
-		st.study();  //this method avaliable in SyntaxStudent yes, ok execute from SyntaxStudent
+		st.study();  //this method avaliable in SyntaxStudent yes, ok  during runtime java execute this method from SyntaxStudent
 		st.doHomework();//this method NOT avaliable in SyntaxClass then goto Parent class (STUDENT) , then execute doHW from parent class
 		
 		

@@ -16,7 +16,7 @@ public class Car {
 		System.out.println(make+" starts by turning key");
 	}
 }
-
+ 
 class BMW extends Car {
 	public BMW(String make){ 
 		super(make);//expilicity create super
@@ -25,7 +25,7 @@ class BMW extends Car {
 	public void start() { //overriding method happened in 3 different classes
 		System.out.println(make+" starts by pushing button");
 	}
-	 public void navigatte() {
+	 public void navigate() {
 		 System.out.println(make+ " has navigation system");
 	 }
 	

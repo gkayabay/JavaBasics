@@ -1,6 +1,6 @@
 package com.syntax.class23;
 
-public class Computer {
+ class SmartMachine {
 	//Task1- Create a Class Computer that will have 4 subclasses as Apple, Lenovo, HP, Dell. 
 	//Define common behavior within and some fields in parent class and override 
 	//some of the methods in child classes
@@ -11,75 +11,87 @@ public class Computer {
 	public void smart() { //adding grandparent class 
 		System.out.println("I am a smart machine");
 	}
+
+ }
 	
+	public class Computer extends SmartMachine  {
+		
+		String brand;	
 	
-	
-	String make;
-	
-	public Computer (String make) {
-		this.make= make;	
+	public Computer (String brand) {
+		this.brand=brand;
 	}
-	public void display() {
-		System.out.println("I have "+ make);
+	
+	public void run() {
+		System.out.println(brand+" can run the system");
+	}
+
+	public void save () {
+		System.out.println(brand+" can save input");
+	}
+
+	public void transfer() {
+		System.out.println(brand+" can transfer information");
+	}
+
+	public void storage() {
+		System.out.println(brand+" can store input");
 	}
 	
-	public void opensWith() {
-		System.out.println(make+" starts by fingertouch key");
-	}
 }
 
 class Apple extends Computer {
-	public Apple(String make){ 
-		super(make);//expilicity create super
+	public Apple(String brand){ 
+		super(brand);//explicitly create super
 	}
 	
-	public void display() { //overriding method happened in 3 different classes
-		System.out.println("I have "+make);
+	public void run() { //overriding method happened in 3 different classes
+		System.out.println(brand+" can run the system faster");
 	}
-	 public void opensWith() {
-		 System.out.println(make+ " opens with fingertouching key");
+	 public void save() {
+		 System.out.println(brand+ " saves input in different way");
 	 }
-	 public void makeVideo() {
-		 System.out.println(make+ " easily creates videos.");
+	 public void transfer() {
+		super.transfer();
 }
+
+     public void safe() {
+			System.out.println(brand+" is safer");
+		}
+		
 }	 
-class Lenova extends Computer {
-	public Lenova(String make){ 
-		super(make);//expilicity create super
+class Lenovo extends Computer {
+	public Lenovo(String brand){ 
+		super(brand);//expilicity create super
 	}
-	public void display() { //overriding method happened in 3 different classes
-		System.out.println("I have "+make);
+	public void run() { //overriding method happened in 3 different classes
+		super.run();
+		transfer();
 	}
-	 public void opensWith() {
-		 System.out.println(make+ " opens with password key");
-	 }
+	
 }
-
-
 
 class HP extends Computer {
-	public HP(String make){ 
-		super(make);//expilicity create super
+	public HP(String brand){ 
+		super(brand);//expilicity create super
 	}
 	
-	public void display() { //overriding method happened in 3 different classes
-		System.out.println("I have "+make);
+	public void run() { //overriding method happened in 3 different classes
+		System.out.println(brand+ " runs slower than other computers");
 	}
-	 public void opensWith() {
-		 System.out.println(make+ " opens with password key");
+	 public void safe() {
+		 System.out.println(brand+ " is safe as Dell");
 	 }
 }
 	
 class Dell extends Computer {
-	public Dell (String make){ 
-		super(make);//expilicity create super
+	public Dell (String brand){ 
+		super(brand);//expilicity create super
 	}
 	
-	public void display() { //overriding method happened in 3 different classes
-		System.out.println("I have "+make);
+	public void save () {
+		super.save();
+		storage();
 	}
-	 public void foldable() {
-		 System.out.println(make+ " is foldable laptop");
-	 }
 }
 

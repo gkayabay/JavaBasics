@@ -6,12 +6,7 @@ public class WebDriverTest {
 		WebDriver driver = new ChromeDriver();
 		driver.open(); //During runtime Java run this method from child class ChromeDriver(Opening ChromeBrowser
 		               //RunTime PolyMorphism
-		
-		
-		
-		
-		
-		
+	  
 	}
 
 }
