@@ -40,17 +40,5 @@ class SubClass extends FinalKeyword {
 public void hello (int num) {//not overriding (method signature is different ) it is a new method in different class
 	System.out.println("Hello of child class ");
 }
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 
 }

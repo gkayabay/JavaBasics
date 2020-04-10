@@ -28,7 +28,7 @@ public class CarTest {
 	
 	System.out.println("------------------------------------");
 	   for (int i=0; i<cars.length; i++) {
-		   cars[i].start(); //ornek bmw.start(); hre bir obj icin method print yap
+		   cars[i].start(); //ornek bmw.start(); her bir obj icin method print yap
 		   cars[i].display();//loop taki car[0], car[1] vs herbir obj icin start ve display methodunu print yapiyor  
 	   }
 	   

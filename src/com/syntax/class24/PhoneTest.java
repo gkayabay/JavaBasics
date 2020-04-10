@@ -1,7 +1,7 @@
 package com.syntax.class24;
 
 public class PhoneTest {
-  
+   
 	public static void main(String[] args) {
 	
 	//new Phone(): CE: cannot instantiate/create an object of Phone Class because is ABSTRACT		

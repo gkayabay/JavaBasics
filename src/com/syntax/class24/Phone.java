@@ -4,7 +4,7 @@ public abstract class Phone {
 	//implemented methods
 	public void call() {
 		System.out.println("Phone can make a call");
-	}
+	} 
 
 	public void text() {
 		System.out.println("Phone can send text");
@@ -38,7 +38,7 @@ class Samsung extends Phone {
 
 	@Override
 	public void playMusic() {
-		System.out.println("Samsung plays music using Apple store");
+		System.out.println("Samsung plays music using Google store");
 	}
 }
 	
