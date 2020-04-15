@@ -11,7 +11,7 @@ public class Main {
 			    
 			    System.out.println(name + " " + lastName + " " + age + " " + seniorActivity);
 			  }
-			  
+		 	  
 			}
 		
 		class Student extends Person{

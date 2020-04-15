@@ -48,13 +48,50 @@ class ChromeDriver implements WebDriver, TakesScreenshot {
 
 	@Override
 	public void findElement() {
-		System.out.println("Chrome Driver finds elements");
+		System.out.println("We can find elements in Chrome");
 		
 	}
 
 	@Override
 	public void takePicture() {
-		System.out.println("In chrome we can take pictures");
+		System.out.println("In Chrome we can take pictures");
 		
 	}
 }
+
+class FireFoxDriver implements WebDriver {
+	@Override
+	public void openBrowser() {
+		System.out.println("We can open FireFox");
+
+	}
+
+	@Override
+	public void closeBrowser() {
+		System.out.println("We can close FireFox");
+
+	}
+
+	@Override
+	public void maximizeWindow() {
+		System.out.println("We can maximize FireFox window");
+
+	}
+
+	@Override
+	public void findElement() {
+		System.out.println("We can find elements in FireFox");
+
+	}
+
+}
+
+
+
+
+
+
+
+
+
+

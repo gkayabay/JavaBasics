@@ -10,7 +10,7 @@ public class Parent {
 	}
 }
 class Child extends Parent {	
-	
+	 
 	String name = "Ahmet"; //when you have same variable(name both parent and child class use "super.name" for to be clear
 	
 	public void display() {

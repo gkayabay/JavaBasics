@@ -44,7 +44,7 @@ class Bus extends Vehicle {
 	}
 	@Override
 	public void brake() {
-		System.out.println("Bus should breake at red light");
+		System.out.println("Bus should breake at red light camera");
 	}
 	@Override
 	void start() {
@@ -99,4 +99,4 @@ class Toyota extends Car {
 		
 	}
 }
-
+ 

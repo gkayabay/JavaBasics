@@ -20,7 +20,7 @@ class Finance {
 	interface Bank extends Trustable {// Child interface //Bank is interface that is in abstract
 		// by default compiler will make method to be public and abstract
 		void deposit(); // abstract method
-
+		// by default compiler will make method to be public and abstract
 		void withdraw(); // abstract method
 	}
 

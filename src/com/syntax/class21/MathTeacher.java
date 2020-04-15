@@ -7,5 +7,5 @@ public class MathTeacher extends Teacher {
 		super(name,lastName);
 		
 	}
-
+ 
 }

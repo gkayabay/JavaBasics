@@ -9,7 +9,7 @@ public class StaticKeyword {
 	
 	static String brand;
 	static boolean touchScreen;
-	
+	 
 	//return type, name, parameters
 	
 	static void displayGeneralInfo() {//instance method because it does not have any static keyword

@@ -3,7 +3,7 @@ package com.gulbahar.practices;
 public class StringConcenetations {
 
 	public static void main(String[] args) {
-		
+		 
 		String lastName = "Hill";
 		String firstName = "Jake";
 		String middleName = "Ricky"; 

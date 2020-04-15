@@ -15,7 +15,7 @@ public class AccessingMembersOfClass {
 		emp.method2();
 		emp.method3();
 		//emp.method4(); CE : method4 is not visible because it is private you can access within the class
-
+ 
 	}
 
 }

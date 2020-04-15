@@ -12,7 +12,7 @@ public class Car {
 		this.model=model;
 	}
 }
-
+ 
 
 class Mercedes extends Car { //constructors are not partifipate inheritance it will have own constructor
 	

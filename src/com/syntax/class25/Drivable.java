@@ -1,5 +1,5 @@
 package com.syntax.class25;
-
+ 
 public interface Drivable {
 	 //compiler by default adds public static final variables
 	 final boolean MOVE_FAST = true;

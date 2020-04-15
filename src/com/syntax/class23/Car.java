@@ -32,8 +32,6 @@ class BMW extends Car {
 	
 }
 
-
-
 class Mercedes extends Car {
 	public Mercedes(String make){ 
 		super(make);//expilicity create super
