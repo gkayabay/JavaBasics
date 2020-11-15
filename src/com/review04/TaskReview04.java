@@ -3,7 +3,7 @@ package com.review04;
 import java.util.Scanner;
 
 public class TaskReview04 {
-
+ 
 	public static void main(String[] args) {
 		// use scanner to ask for the size of the array then read numbers from the scanner into the array 
 		//then print the whole array

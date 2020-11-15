@@ -7,11 +7,11 @@ public class ConstructorsDemo {
 	
 	
 	ConstructorsDemo () {  //non argument constructor because no parameters 
-		                   //also it it default constructor it does not have parameter 
+		                   //also it is default constructor it does not have parameter 
 		                   //when we forget to create compiler will create this default consructor for us
 	System.out.println("I am your constructor");
 	System.out.println("I am non argument constructor");
-	}
+	} 
      
 	ConstructorsDemo(String str) {
 		System.out.println("I am a constructor with 1 string parameter"+ str);

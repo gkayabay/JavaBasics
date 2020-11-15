@@ -15,5 +15,5 @@ public class PracticeSmallest {
 		System.out.println("Second largest ="+numbers[numbers.length-2]);
 		
 	}
-
+ 
 }

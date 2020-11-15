@@ -1,6 +1,6 @@
 package com.review04;
 
-public class ArrayDemo {
+public class ArrayDemo { 
 
 	public static void main(String[] args) {
 		int a0=5;

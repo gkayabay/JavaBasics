@@ -10,8 +10,8 @@ public class Main {
 			     void print(){
 			    
 			    System.out.println(name + " " + lastName + " " + age + " " + seniorActivity);
-			  }
-		 	  
+			  } 
+		 	   
 			}
 		
 		class Student extends Person{

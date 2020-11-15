@@ -12,7 +12,7 @@ public class Task1 {
      grade1 =studentGrade1;
      grade2=studentGrade2;
      grade3 =studentGrade3;
-     
+      
 }
      public static void gradeAverage() {
     	 int total = grade1+grade2+grade3;

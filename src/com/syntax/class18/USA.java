@@ -23,7 +23,7 @@ public class USA {
 		USA usa = new USA("Virginia", "Richmond");
 		usa.display();
 		
-		
+		 
 	}
 	
 	

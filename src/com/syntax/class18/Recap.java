@@ -18,7 +18,7 @@ public class Recap {
 			reverse+=str.charAt(i);
 		}
 	return reverse;
-	
+	 
 	}
 	
 	
@@ -42,7 +42,7 @@ public class Recap {
 		System.out.println(vowels);
 	}
 	}
-	
+	 
 	
 	
 	

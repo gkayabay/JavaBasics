@@ -19,5 +19,5 @@ public class StringManipulationsPrep {
 		System.out.println(firstword);
 	}
 	
-
+ 
 }

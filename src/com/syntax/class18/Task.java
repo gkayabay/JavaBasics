@@ -18,7 +18,7 @@ public class Task {
 		color = WatchColor;
 		price= WatchPrice;
 
-}
+} 
 	
 	public static void main(String[] args) {
 		

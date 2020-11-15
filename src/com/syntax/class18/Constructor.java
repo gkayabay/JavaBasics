@@ -8,7 +8,7 @@ public class Constructor {
 	//CE: saying invalid modifier
 	//static constructor
 	
-	
+	 
 	public Constructor(){
 		System.out.println("Public constructor");
 	}

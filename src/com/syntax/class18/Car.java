@@ -18,7 +18,7 @@ public class Car {
 		car.color ="Blue";
 		car.door = 2;
 		car.wheels=5;
-		
+		 
 		car.printDetails();
 	
 		

@@ -9,7 +9,7 @@ public class ArrayMAxMin {
 		int largest= numbers[0];
 		int smallest=numbers[0];
 		int sum=0;
-		
+		 
 		for(int num:numbers) {
 			if(num>largest) {
 				largest=num;

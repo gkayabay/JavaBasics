@@ -38,5 +38,8 @@ public class RetrieveElements {
 				System.out.println(fruits[i]);
 			}
 		}
+		}
 	}
 }
+	
+

@@ -14,6 +14,7 @@ public class Largest {
 		}
 				System.out.println("The largest number is "+largest);
 			}
+	
 	   //2nd way -Teacher`s way
 	    int[] nums= {200, 30, -1, 900, 56, 787};
 	    
@@ -29,7 +30,7 @@ public class Largest {
 	    	
 	    }
 			
-		}
+	    }
 	
 	
 
